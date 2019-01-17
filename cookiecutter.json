@@ -15,6 +15,6 @@
         "Not open source"
     ],
     "use_editorconfig": "y",
-    "use_pre-commit": "y",
+    "use_pre_commit": "y",
     "use_boto3": "n"
 }

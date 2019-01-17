@@ -9,7 +9,7 @@ def remove_file(filepath):
 
 
 if __name__ == "__main__":
-    if "{{ cookiecutter.use_pre-commit  }}" != "y":
+    if "{{ cookiecutter.use_pre_commit  }}" != "y":
         remove_file(".pre-commit-config.yaml")
 
     if "{{ cookiecutter.use_editorconfig }}" != "y":
