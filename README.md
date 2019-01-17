@@ -12,7 +12,7 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for creating 
 1. [Install Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/installation.html)
 
 ```sh
-$ pip install cookiecutter
+$ pip install --user cookiecutter
 ```
 
 1. Create your chalice application
@@ -21,4 +21,8 @@ $ pip install cookiecutter
 $ cookiecutter gh:maxrodrigo/cookiecutter-chalice
 ```
 
-2. All set! Follow the instruction inside the project README.
+1. All set! Follow the instruction inside the project README.
+
+## License
+
+Distributed under the terms of the [MIT license](http://opensource.org/licenses/MIT), Cookiecutter Chalice is free and open source software.
