@@ -43,8 +43,22 @@ $ make install
 
 ```
 
-You're ready ! try it with:
+🍪 You're ready ! try it with:
+
 
 ```sh
 $ make run
 ```
+
+## Running Tests
+
+To run all tests, simply run:
+
+```sh
+$ make test
+```
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [maxrodrigo/cookiecutter-chalice](https://github.com/maxrodrigo/cookiecutter-chalice) project template.
+
