@@ -1,5 +1,7 @@
 # Cookiecutter Chalice API
 
+[![Build Status](https://travis-ci.org/maxrodrigo/cookiecutter-chalice.svg?branch=master)](https://travis-ci.org/maxrodrigo/cookiecutter-chalice)
+
 A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a Chalice based REST API.
 
 ## Requirements
@@ -15,13 +17,36 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for creating 
 $ pip install --user cookiecutter
 ```
 
-1. Create your chalice application
+1. Create your application
 
 ```sh
 $ cookiecutter gh:maxrodrigo/cookiecutter-chalice
 ```
 
 1. All set! Follow the instruction inside the project README.
+
+## Example
+
+Creating the project will generate this folders:
+
+```
+my_awesome_api
+├── .chalice
+│   └── config.json
+├── .editorconfig
+├── .gitignore
+├── .pre-commit-config.yaml
+├── LICENSE
+├── Makefile
+├── README.md
+├── app.py
+├── requirements.txt
+├── requirements_dev.txt
+└── test
+    ├── __init__.py
+    ├── conftest.py
+    └── test_my_awesome_api.py
+```
 
 ## License
 
