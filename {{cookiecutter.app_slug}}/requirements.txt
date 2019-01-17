@@ -1,0 +1,3 @@
+{% if cookiecutter.use_boto == 'y' -%}
+boto3==1.9.50
+{%- endif %}
