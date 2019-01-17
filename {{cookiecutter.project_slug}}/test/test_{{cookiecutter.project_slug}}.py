@@ -2,8 +2,10 @@
 
 """Tests for {{ cookiecutter.project_slug }}."""
 
+import json
+
 
 def test_response(client):
     resp = client.handle_request(method="GET", path="/", headers={}, body="")
-    __import__("pprint").pprint(resp)
-    assert resp["statusCode"] == 403
+    assert resp["statusCode"] == 200
+    assert json.loads(resp["body"]) == {"hello": "world"}

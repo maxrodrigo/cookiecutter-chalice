@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Test configuration for {{ cookiecutter.project_slug }}."""
+"""Test configuration for {{ cookiecutter.project_name }}."""
 
 import pytest
 
