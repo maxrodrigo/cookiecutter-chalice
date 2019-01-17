@@ -39,6 +39,8 @@ test: clean ## run all, unit and integration tests
 	@echo "+ $@"
 	@py.test
 
+test-all: lint test ## run all, testsand flake8
+
 run: ## run local instance of the lambda
 	@echo "+ $@"
 	@chalice local
