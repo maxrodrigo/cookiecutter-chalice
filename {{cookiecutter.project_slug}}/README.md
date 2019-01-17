@@ -1,11 +1,13 @@
-# YD-API Sentences
+# {{ cookiecutter.project_name }}
+
+{{ cookiecutter.project_description }}
 
 ## Installing
 
 Clone the repository:
 
 ```sh
-$ git clone git@github.com:LoveToKnow/yd-API-sentences.git
+$ git clone {{ cookiecutter.github_repository }}
 ```
 
 Set up a virtual environment for the project and activate it.
@@ -34,13 +36,12 @@ $ mkvirtualenv wordfinder
 
 The app provides a `make` command as an interface to the most common tasks.
 
-> Run make help to see the available commands!
+> Run `make help` to see the available commands!
 
 To initialize the environment simply execute:
 
 ```sh
 $ make install
-
 ```
 
 🍪 You're ready ! try it with:
