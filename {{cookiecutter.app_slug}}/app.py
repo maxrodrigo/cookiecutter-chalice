@@ -1,4 +1,4 @@
-{% if cookiecutter.use_boto == 'y' -%}
+{% if cookiecutter.use_boto3 == 'y' -%}
 import boto3
 {%- endif %}
 from chalice import Chalice

@@ -3,9 +3,9 @@
     "email": "contact@maxrodrigo.com",
     "github_username": "maxrodrigo",
     "github_repository": "https://github.com/maxrodrigo/cookiecutter-chalice.git",
-    "project_name": "Serverless API",
+    "project_name": "My Awesome API",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-    "project_description": "Python Boilerplate.",
+    "project_description": "My Awesome API description.",
     "open_source_license": [
         "MIT license",
         "BSD license",
@@ -16,5 +16,5 @@
     ],
     "use_editorconfig": "y",
     "use_pre-commit": "y",
-    "use_boto": "n"
+    "use_boto3": "n"
 }
