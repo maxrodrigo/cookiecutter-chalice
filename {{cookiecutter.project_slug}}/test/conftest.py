@@ -17,7 +17,8 @@ class TestClient(object):
         headers (dict): Default headers to set on every request (default: ``None``).
     """
 
-    def __init__(self, headers=None):
+    def __init__(self, app, headers=None):
+        self.app = app
         self._default_headers = headers
 
     def request(self, method="GET", path="/", headers=None, body=None):
@@ -42,7 +43,7 @@ class TestClient(object):
         body = body or ""
         headers = headers or {}
 
-        gateway = LocalGateway(app, Config())
+        gateway = LocalGateway(self.app, Config())
         response = gateway.handle_request(method, path, headers, body)
         return response
 
@@ -69,4 +70,4 @@ class TestClient(object):
 
 @pytest.fixture(scope="module")
 def client():
-    return TestClient()
+    return TestClient(app)
