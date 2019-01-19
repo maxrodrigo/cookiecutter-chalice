@@ -1,4 +1,4 @@
-.PHONY: help install clean clean-pyc clean-test test lint run install
+.PHONY: help install clean clean-pyc clean-test test lint install
 .DEFAULT_GOAL := help
 
 define PRINT_HELP_PYSCRIPT
@@ -40,10 +40,6 @@ test: clean ## run all, unit and integration tests
 	@py.test
 
 test-all: lint test ## run all, testsand flake8
-
-run: ## run local instance of the lambda
-	@echo "+ $@"
-	@chalice local
 
 install: ## initiate the local environment
 	@echo "+ $@"
