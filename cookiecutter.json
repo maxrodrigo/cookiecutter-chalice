@@ -2,7 +2,7 @@
     "full_name": "Max Rodrigo",
     "email": "contact@maxrodrigo.com",
     "github_username": "maxrodrigo",
-    "github_repository": "https://github.com/maxrodrigo/cookiecutter-chalice.git",
+    "github_repository": "",
     "project_name": "My Awesome API",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "project_description": "My Awesome API description.",
