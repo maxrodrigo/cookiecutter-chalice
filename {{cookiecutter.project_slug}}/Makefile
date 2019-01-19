@@ -34,7 +34,7 @@ test: clean ## run all, unit and integration tests
 	@echo "+ $@"
 	@py.test
 
-run: ## run local instance of the lambda
+local: ## run local instance of the lambda
 	@echo "+ $@"
 	@chalice local
 
@@ -42,6 +42,5 @@ install: ## initiate the local environment
 	@echo "+ $@"
 	@pip install -r ./requirements_dev.txt
 {%- if cookiecutter.use_pre_commit == 'y' %}
-	@pre-commit install
-	@pre-commit autoupdate
+	@if [ -d ".git" ]; then @pre-commit install; fi
 {%- endif %}
