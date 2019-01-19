@@ -40,7 +40,7 @@ local: ## run local instance of the lambda
 
 install: ## initiate the local environment
 	@echo "+ $@"
-	@pip install -r ./requirements_dev.txt
+	@pip -q install -r ./requirements_dev.txt
 {%- if cookiecutter.use_pre_commit == 'y' %}
 	@if [ -d ".git" ]; then @pre-commit install; fi
 {%- endif %}
