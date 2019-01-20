@@ -2,7 +2,11 @@
 
 [![Build Status](https://travis-ci.org/maxrodrigo/cookiecutter-chalice.svg?branch=master)](https://travis-ci.org/maxrodrigo/cookiecutter-chalice)
 
-A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a Chalice based REST API.
+A [Cookiecutter](https://github.com/audreyr/cookiecutter) poject template for creating an [AWS Chalice](https://github.com/aws/chalice/) based REST API.
+
+## Demo
+
+![Installation](./assets/demo.svg)
 
 ## Requirements
 
