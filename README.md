@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/maxrodrigo/cookiecutter-chalice.svg?branch=master)](https://travis-ci.org/maxrodrigo/cookiecutter-chalice)
 
-A [Cookiecutter](https://github.com/audreyr/cookiecutter) poject template for creating an [AWS Chalice](https://github.com/aws/chalice/) based REST API.
+A [Cookiecutter](https://github.com/audreyr/cookiecutter) poject template for creating an [AWS Chalice](https://github.com/aws/chalice/) based API.
 
 ## Demo
 
@@ -51,6 +51,10 @@ my_awesome_api
     ├── conftest.py
     └── test_my_awesome_api.py
 ```
+
+## Contributing
+
+Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given.
 
 ## License
 
