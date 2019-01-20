@@ -37,7 +37,7 @@ lint: ## check style with flake8 and black
 
 test: clean ## run all, unit and integration tests
 	@echo "+ $@"
-	@py.test
+	@py.test ./tests
 
 test-all: lint test ## run all, testsand flake8
 
