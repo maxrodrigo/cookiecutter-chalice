@@ -34,6 +34,10 @@ test: clean ## run all, unit and integration tests
 	@echo "+ $@"
 	@py.test
 
+deploy: ## deploy your code to AWS
+	@echo "+ $@"
+	@chalice deploy
+
 local: ## run local instance of the lambda
 	@echo "+ $@"
 	@chalice local
