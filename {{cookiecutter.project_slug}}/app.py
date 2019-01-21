@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 {% if cookiecutter.use_boto3 == 'y' -%}
 import boto3
 {%- endif %}
