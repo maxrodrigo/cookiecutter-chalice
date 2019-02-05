@@ -23,7 +23,7 @@ $ source venv/bin/activate
 Using `virtualenv`
 
 ```sh
-$ cd WordFinder-API
+$ cd {{ cookiecutter.project_slug }}
 $ virtualenv [--python=python3.6] venv
 $ source venv/bin/activate
 ```
@@ -31,7 +31,7 @@ $ source venv/bin/activate
 Using `virtualwrapper`:
 
 ```sh
-$ mkvirtualenv wordfinder
+$ mkvirtualenv {{ cookiecurret.project_slug }}
 ```
 
 The app provides a `make` command as an interface to the most common tasks.
