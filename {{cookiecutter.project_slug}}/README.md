@@ -15,7 +15,7 @@ Set up a virtual environment for the project and activate it.
 > module feel free to use you prefer.
 
 ```sh
-$ cd yd-API-sentences
+$ cd {{ cookiecutter.project_slug }}
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
