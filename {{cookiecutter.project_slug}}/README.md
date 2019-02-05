@@ -31,7 +31,7 @@ $ source venv/bin/activate
 Using `virtualwrapper`:
 
 ```sh
-$ mkvirtualenv {{ cookiecurret.project_slug }}
+$ mkvirtualenv {{ cookiecutter.project_slug }}
 ```
 
 The app provides a `make` command as an interface to the most common tasks.
