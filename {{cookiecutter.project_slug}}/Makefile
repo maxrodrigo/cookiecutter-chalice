@@ -46,5 +46,5 @@ install: ## initiate the local environment
 	@echo "+ $@"
 	@pip -q install -r ./requirements_dev.txt
 {%- if cookiecutter.use_pre_commit == 'y' %}
-	@if [ -d ".git" ]; then @pre-commit install; fi
+	@pre-commit install;
 {%- endif %}

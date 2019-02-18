@@ -1,7 +1,7 @@
 -r requirements.txt
 
 chalice==1.6.2
+pytest ~= 4.0
 {% if cookiecutter.use_pre_commit == 'y' -%}
 pre-commit==1.14.2
 {%- endif %}
-pytest ~= 4.0
